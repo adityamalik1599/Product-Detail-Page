@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 64px;
+  border-bottom: 1px solid var(--gray-200);
+  background: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+
+  a {
+    color: var(--gray-700);
+    text-decoration: none;
+    font-size: 0.9375rem;
+
+    &:hover { color: var(--primary); }
+  }
+}
+
+.cartBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .header { padding: 0 16px; }
+  .nav { display: none; }
+}

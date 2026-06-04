@@ -1,0 +1,6 @@
+.errorPage {
+  padding: 40px;
+  text-align: center;
+  color: var(--gray-500);
+  font-size: 1.125rem;
+}
