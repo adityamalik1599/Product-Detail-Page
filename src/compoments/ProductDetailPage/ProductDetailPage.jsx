@@ -3,7 +3,7 @@ import ProductContext from '../../context/ProductContext'
 import Gallery from '../Gallery/Gallery'
 import ProductInfo from '../ProductInfo/ProductInfo'
 import ProductTabs from '../ProductTabs/ProductTabs'
-import styles from './ProductDetailPage.module.scss'
+import styles from '../../styles/ProductDetailPage.module.scss'
 
 const ProductDetailPage = () => {
   const product = useContext(ProductContext)

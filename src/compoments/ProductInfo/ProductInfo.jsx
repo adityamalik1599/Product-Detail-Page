@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect } from 'react'
 import ProductContext from '../../context/ProductContext'
 import { COLORS, SIZES } from '../../data/productConfig'
-import styles from './ProductInfo.module.scss'
+import styles from '../../styles/ProductInfo.module.scss'
 import { TbTruckDelivery } from "react-icons/tb"
 
 const Stars = ({ rate }) => (

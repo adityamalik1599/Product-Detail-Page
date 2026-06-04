@@ -1,4 +1,4 @@
-import styles from './Header.module.scss'
+import styles from '../../styles/Header.module.scss'
 import { FiShoppingCart } from 'react-icons/fi'
 import CartDrawer from '../CartDrawer/CartDrawer'
 

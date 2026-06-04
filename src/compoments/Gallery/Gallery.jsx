@@ -3,7 +3,7 @@ import ProductContext from '../../context/ProductContext'
 import ring1 from '../../assets/image1.jpg'
 import ring2 from '../../assets/image2.jpg'
 import ring3 from '../../assets/image3.jpg'
-import styles from './Gallery.module.scss'
+import styles from '../../styles/Gallery.module.scss'
 
 const Gallery = () => {
   const product = useContext(ProductContext)
@@ -36,6 +36,8 @@ const Gallery = () => {
       >
         <img
           src={images[activeIndex]}
+          fetchpriority="high"
+          loading="eager"
           alt={product.title}
           style={{ opacity: zoomStyle ? 0 : 1 }}
         />

@@ -1,7 +1,7 @@
 import { useState, useContext } from 'react'
 import ProductContext from '../../context/ProductContext'
 import { SPECIFICATIONS, STATIC_REVIEWS } from '../../data/productConfig'
-import styles from './ProductTabs.module.scss'
+import styles from '../../styles/ProductTabs.module.scss'
 
 const TABS = ['Details', 'Specifications', 'Reviews']
 

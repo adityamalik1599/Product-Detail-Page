@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { FiShoppingCart, FiX, FiTrash2 } from 'react-icons/fi'
-import styles from './CartDrawer.module.scss'
+import styles from '../../styles/CartDrawer.module.scss'
 
 const CartDrawer = () => {
   const [open, setOpen] = useState(false)
