@@ -11,11 +11,11 @@ Main things it does:
 -> Responsive — two columns on desktop, stacks on mobile
 
 Live Demo
-https://toxicmessagedashboard.netlify.app
+https://productdetailpagenua.netlify.app
 
 Setup Instructions
 1. Clone the repository
-git clone https://github.com/adityamalik1599/Toxic-Message-Tagging.git
+git clone https://github.com/adityamalik1599/Product-Detail-Page.git
 
 2. Navigate to project
 cd Toxic-Message-Tagging/toxic-message-tagging
